@@ -1,0 +1,154 @@
+.navtop {
+    grid-area: navtop;
+    background-color: rgb(228, 226, 226);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    z-index: 1;
+    overflow: hidden;
+    border-bottom: dashed 1px rgb(141, 140, 140);
+}
+.navbar {
+    grid-area: navbar;
+    height: 360px;
+}
+.mainimage {
+    grid-area: mainimage;
+    background-color: green;
+    height: 680px;
+    background-image: url('Mainbackground.png');
+        background-size: cover;
+        width: 100%;
+}
+.subimages {
+    grid-area: subimages;
+    height: 520px;
+}
+.footer {
+    grid-area: footer;
+    background-color: rgba(97, 96, 96, 0.158);
+    height: 1000px;
+}
+.maincontainer {
+    display: grid;
+    grid-template-areas: 
+        'navtop'
+        'navbar'
+        'mainimage'
+        'subimages'
+        'footer';
+}
+.navtopboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navboxes {
+    display: flex;
+    flex-direction: column;
+}
+.navlogo {
+    display: block;
+    height: 185px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    justify-content: center;
+}
+.navbuttons {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 40px;
+}
+li {
+    font-family: 'Kanit', sans-serif;
+    margin-right: 30px;
+    margin-left: 25px;
+    font-size: 22px;
+}
+li:hover {
+    color: rgb(10,163,156);
+}
+.toprightbuttons {
+    display: flex;
+    flex-direction: row;
+}
+.mainimage .btn {
+    position: absolute;
+    top: 97.9%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(10,163,156);
+    color: white;
+    font-size: 22px;
+    padding: 28px 38px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.container .btn:hover {
+    background-color: black;
+    color: white;
+}
+.subimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.subclass {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    text-align: center;
+}
+.mustachetypes {
+    height: 350px;
+    width: 395px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid black;
+}
+h1 {
+
+}
+h2 {
+    font-family: 'Poller One', cursive;
+    font-size: 26px;
+    margin-top: 36px;
+}
+h3 {
+    font-size: 25px;
+    color: rgb(93, 108, 119);
+    margin-top: 15px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+h3:hover {
+    color: black;
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+    font-size: 18px;
+    color: rgb(160, 160, 160);
+    margin-top: 16px;
+    margin-left: 20px;
+}
+h6:hover {
+    color: rgb(30, 30, 71);
+}
+i {
+    margin-right: 25px;
+}
