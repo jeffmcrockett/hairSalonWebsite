@@ -2,66 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, 
+                width=device-width, initial-scale=1.0, 
+                minimum-scale=1.0, maximum-scale=1.0, ">
     <title>Hair Salon Website</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poller+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap" rel="stylesheet">
-
 </head>
-<body class="maincontainer">
-    <section class="navtop">
-        <div class="navtopboxes">
-            <h3>FREE WEBSITE TEMPLATES</h3>
-            <div class="toprightbuttons">
-                <h6>DOWNLOAD <i class="fa fa-download fa-lg"></i></h6>
-                <h6>DISCUSS <i class="fa fa-comments fa-lg"></i></h6>
-            </div>
-        </div>
-    </section>
-    <section class="navbar">
-        <div class="navboxes">
-            <div class="navimage">
-                <image class="navlogo" src="mustacchiologo.png" alt="Mustacchio Logo"/>
-            </div>
-            <div>
-                <ul class="navbuttons">
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>GALLERY</li>
-                    <li>BLOG</li>
-                    <li>CONTACT</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="mainimage">
-        <button class="btn">READ MORE</button>
-    </section>
-    <section class="subimages">
-        <div class="subclass">
-            <image class="mustachetypes" src="thefather.png" alt="Older man with a mustache"/>
-            <h2>THE FATHER</h2>
-        </div>
-        <div class="subclass">
-            <image class="mustachetypes" src="theactor.png" alt="Younger man who looks like an actor"/>
-            <h2>THE ACTOR</h2>
-        </div>
-        <div class="subclass">
-            <image class="mustachetypes" src="thenerd.png" alt="Nerdy man with handlebar mustache"/>
-            <h2>THE NERD</h2>
-        </div>
-    </section>
-    <section class="footer">
-
-    </section>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<body id="maincontainer">
+	<div id="topnavbar">
+		<div id="topnavbarcontents">
+			<h2>FREE WEBSITE TEMPLATES</h2>
+			<ul id="toprightlinks">
+				<li>Download <i class="fa fa-download"></i></li>     
+				<li>Discuss <i class="fa fa-comments"></i></li>     		     
+			</ul>
+		</div>
+	</div>  
+	<div id="header">
+		<a href="index.html">
+			<img class="logo" src="images/mustacchiologo.png" alt="Mustache Logo">
+		</a>
+		<ul class="navlist">
+			<li class="pageselected"><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="gallery.html">GALLERY</a></li>
+			<li><a href="blog.html">BLOG</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	</div>
+	<div id="body">
+		<div id="mainimage">
+			<img class="mainimagemobile" src="images/Mobilemainphoto.png" alt="Man driving car">
+			<img class="mainimagelarge" src="images/Largemainphoto.png" alt="Man driving car">
+			<button class="readmore" href="blog-single-post.html">READ MORE</a>
+		</div>
+		<ul class="examplelist">
+			<li>
+					<img class="exampleimage" href="gallery.html" src="images/thefather.png" alt="">
+					<p>THE FATHER</p>
+			</li>
+			<li>
+					<img class="exampleimage" href="gallery.html" src="images/theactor.png" alt="">
+					<p>THE ACTOR</p>
+			</li>
+			<li>
+					<img class="exampleimage" href="gallery.html" src="images/thenerd.png" alt="">
+					<p>THE NERD</p>
+			</li>
+		</ul>
+	</div>
+	<div id="footer">
+			<p>© 2023 by Mustacchio. All rights reserved.</p>
+			<div class="socialmedia">
+				<i class="fa fa-twitter-square"></i>
+				<i class="fa fa-facebook-square"></i>
+				<i class="fa fa-google-plus-square"></i>
+				<i class="fa fa-pinterest-square"></i>
+			</div>
+	</div>
+    <div id="blankfooter"></div>
 </body>
 </html> 
