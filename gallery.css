@@ -104,6 +104,26 @@ body {
 .fa-download {
     margin-right: 25px;
 }
+.gallerytitlebar {
+    width: 340px;
+    margin-left: 17px;
+}
+.galleryimg {
+    width: 170px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    opacity: .75;
+}
+.galleryimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.galleryimg:hover {
+    opacity: 0.99;
+    transition: 900ms;
+}
 
 
 
@@ -146,6 +166,18 @@ body {
     #footer p {
         margin-top: 50px;
     }
+    .gallerytitlebar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+        margin-bottom: 30px;
+    }
+    .galleryimg {
+        width: 300px;
+        margin-left: 31px;
+        margin-top: 30px;
+    }
 }
 
 
@@ -171,5 +203,23 @@ body {
     }
     .navlist li {
         margin-right: 26px;
+    }
+    .galleryimages {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 72vw;
+    }
+    .gallerytitlebar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 16vw;
+        margin-bottom: 30px;
+    }
+    .galleryimg {
+        width: 20vw;
+        margin-left: 2.6vw;
+        margin-top: 30px;
     }
 }
