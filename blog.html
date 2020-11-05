@@ -5,8 +5,8 @@
     <meta name="viewport" content="height=device-height, 
                 width=device-width, initial-scale=1.0, 
                 minimum-scale=1.0, maximum-scale=1.0, ">
-    <title>Hair Salon Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -18,8 +18,8 @@
 		<div id="topnavbarcontents">
 			<h2>FREE WEBSITE TEMPLATES</h2>
 			<ul id="toprightlinks">
-				<li>Download <i class="fa fa-download"></i></li>     
-				<li>Discuss <i class="fa fa-comments"></i></li>     		     
+				<li>DOWNLOAD <i class="fa fa-download"></i></li>     
+				<li>DISCUSS <i class="fa fa-comments"></i></li>     		     
 			</ul>
 		</div>
 	</div>  
@@ -28,33 +28,44 @@
 			<img class="logo" src="images/mustacchiologo.png" alt="Mustache Logo">
 		</a>
 		<ul class="navlist">
-			<li class="pageselected"><a href="index.html">HOME</a></li>
+			<li><a href="index.html">HOME</a></li>
 			<li><a href="about.html">ABOUT</a></li>
 			<li><a href="gallery.html">GALLERY</a></li>
-			<li><a href="blog.html">BLOG</a></li>
+			<li class="pageselected"><a href="blog.html">BLOG</a></li>
 			<li><a href="contact.html">CONTACT</a></li>
 		</ul>
 	</div>
 	<div id="body">
-		<div id="mainimage">
-			<img class="mainimagemobile" src="images/Mobilemainphoto.png" alt="Man driving car">
-			<img class="mainimagelarge" src="images/Largemainphoto.png" alt="Man driving car">
-			<button class="readmore" href="blog-single-post.html">READ MORE</a>
+		<div>
+			<img class="blogtitlebar" src="images/blogtitleimage.png">
 		</div>
-		<ul class="examplelist">
-			<li>
-					<img class="exampleimage" href="gallery.html" src="images/thefather.png" alt="">
-					<p>THE FATHER</p>
-			</li>
-			<li>
-					<img class="exampleimage" href="gallery.html" src="images/theactor.png" alt="">
-					<p>THE ACTOR</p>
-			</li>
-			<li>
-					<img class="exampleimage" href="gallery.html" src="images/thenerd.png" alt="">
-					<p>THE NERD</p>
-			</li>
-		</ul>
+		<div class="blogboxes">
+			<div class="individualblog">
+				<img src="images/blogimage1.png" alt="man having beard trimmed">
+				<div class="blogtext">
+					<h5>WHY I GREW A MUSTACHE</h5>
+					<p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.</p>
+					<button>READ THIS</button>
+				</div>
+			</div>
+			<div class="individualblog">
+				<img src="images/blogimage2.png" alt="Older man with a white mustache">
+				<div class="blogtext">
+					<h5>IN THE COUNTRY</h5>
+					<p>Want an easier solution for a Free Website? Head straight to Wix and immediately start customizing your website!</p>
+					<button>READ THIS</button>
+				</div>
+			</div>
+			<div class="individualblog">
+				<img src="images/blogimage3.png" alt="two brothers standing next to each other">
+				<div class="blogtext">
+					<h5>THE MUSTACHE BROTHERS</h5>
+					<p>Wix is an online website builder with a simple drag & drop interface, meaning you do the work online and instantly publish to the web. Nothing to download, nothing to upload.</p>
+					<button>READ THIS</button>
+				</div>
+			</div>
+		</div>
+		
 	</div>
 	<div id="footer">
 			<p>© 2023 by Mustacchio. All rights reserved.</p>
